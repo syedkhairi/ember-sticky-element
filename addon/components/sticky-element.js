@@ -1,4 +1,3 @@
-import Ember from 'ember';
 import { or, notEmpty } from '@ember/object/computed';
 import { htmlSafe } from '@ember/string';
 import Component from '@ember/component';
