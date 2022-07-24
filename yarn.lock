@@ -2324,11 +2324,6 @@
     "@babel/types" "^7.7.2"
     "lodash" "^4.17.15"
 
-"babel-plugin-htmlbars-inline-precompile@^1.0.0":
-  "integrity" "sha512-4jvKEHR1bAX03hBDZ94IXsYCj3bwk9vYsn6ux6JZNL2U5pvzCWjqyrGahfsGNrhERyxw8IqcirOi9Q6WCo3dkQ=="
-  "resolved" "https://registry.npmjs.org/babel-plugin-htmlbars-inline-precompile/-/babel-plugin-htmlbars-inline-precompile-1.0.0.tgz"
-  "version" "1.0.0"
-
 "babel-plugin-htmlbars-inline-precompile@^5.0.0":
   "integrity" "sha512-QWjjFgSKtSRIcsBhJmEwS2laIdrA6na8HAlc/pEAhjHgQsah/gMiBFRZvbQTy//hWxR4BMwV7/Mya7q5H8uHeA=="
   "resolved" "https://registry.npmjs.org/babel-plugin-htmlbars-inline-precompile/-/babel-plugin-htmlbars-inline-precompile-5.3.1.tgz"
@@ -4796,26 +4791,7 @@
   "resolved" "https://registry.npmjs.org/ember-cli-babel-plugin-helpers/-/ember-cli-babel-plugin-helpers-1.1.1.tgz"
   "version" "1.1.1"
 
-"ember-cli-babel@^6.3.0":
-  "integrity" "sha512-LMwZ3Xf3Q3jQUXaJtLLJsbbhRZRNv/iea64lZ8OgqZp1fh66CSXfmqV3L9QSuYQKPDNqFiu2v6IpOT08C6GU6w=="
-  "resolved" "https://registry.npmjs.org/ember-cli-babel/-/ember-cli-babel-6.12.0.tgz"
-  "version" "6.12.0"
-  dependencies:
-    "amd-name-resolver" "0.0.7"
-    "babel-plugin-debug-macros" "^0.1.11"
-    "babel-plugin-ember-modules-api-polyfill" "^2.3.0"
-    "babel-plugin-transform-es2015-modules-amd" "^6.24.0"
-    "babel-polyfill" "^6.16.0"
-    "babel-preset-env" "^1.5.1"
-    "broccoli-babel-transpiler" "^6.1.2"
-    "broccoli-debug" "^0.6.2"
-    "broccoli-funnel" "^1.0.0"
-    "broccoli-source" "^1.1.0"
-    "clone" "^2.0.0"
-    "ember-cli-version-checker" "^2.1.0"
-    "semver" "^5.4.1"
-
-"ember-cli-babel@^6.7.1 || ^7.0.0", "ember-cli-babel@^7.0.0", "ember-cli-babel@^7.13.0", "ember-cli-babel@^7.13.2", "ember-cli-babel@^7.22.1", "ember-cli-babel@^7.23.0", "ember-cli-babel@^7.23.1", "ember-cli-babel@^7.26.11", "ember-cli-babel@^7.26.6":
+"ember-cli-babel@*", "ember-cli-babel@^7.0.0", "ember-cli-babel@^7.13.0", "ember-cli-babel@^7.13.2", "ember-cli-babel@^7.22.1", "ember-cli-babel@^7.23.0", "ember-cli-babel@^7.23.1", "ember-cli-babel@^7.26.11", "ember-cli-babel@^7.26.6":
   "integrity" "sha512-JJYeYjiz/JTn34q7F5DSOjkkZqy8qwFOOxXfE6pe9yEJqWGu4qErKxlz8I22JoVEQ/aBUO+OcKTpmctvykM9YA=="
   "resolved" "https://registry.npmjs.org/ember-cli-babel/-/ember-cli-babel-7.26.11.tgz"
   "version" "7.26.11"
@@ -4851,6 +4827,25 @@
     "rimraf" "^3.0.1"
     "semver" "^5.5.0"
 
+"ember-cli-babel@^6.3.0":
+  "integrity" "sha512-LMwZ3Xf3Q3jQUXaJtLLJsbbhRZRNv/iea64lZ8OgqZp1fh66CSXfmqV3L9QSuYQKPDNqFiu2v6IpOT08C6GU6w=="
+  "resolved" "https://registry.npmjs.org/ember-cli-babel/-/ember-cli-babel-6.12.0.tgz"
+  "version" "6.12.0"
+  dependencies:
+    "amd-name-resolver" "0.0.7"
+    "babel-plugin-debug-macros" "^0.1.11"
+    "babel-plugin-ember-modules-api-polyfill" "^2.3.0"
+    "babel-plugin-transform-es2015-modules-amd" "^6.24.0"
+    "babel-polyfill" "^6.16.0"
+    "babel-preset-env" "^1.5.1"
+    "broccoli-babel-transpiler" "^6.1.2"
+    "broccoli-debug" "^0.6.2"
+    "broccoli-funnel" "^1.0.0"
+    "broccoli-source" "^1.1.0"
+    "clone" "^2.0.0"
+    "ember-cli-version-checker" "^2.1.0"
+    "semver" "^5.4.1"
+
 "ember-cli-dependency-checker@^3.3.1":
   "integrity" "sha512-Tg6OeijjXNKWkDm6057Tr0N9j9Vlz/ITewXWpn1A/+Wbt3EowBx5ZKfvoupqz05EznKgL1B/ecG0t+JN7Qm6MA=="
   "resolved" "https://registry.npmjs.org/ember-cli-dependency-checker/-/ember-cli-dependency-checker-3.3.1.tgz"
@@ -4884,17 +4879,6 @@
   dependencies:
     "ember-cli-version-checker" "^2.1.0"
     "rsvp" "^4.7.0"
-
-"ember-cli-htmlbars-inline-precompile@^2.1.0":
-  "integrity" "sha512-BylIHduwQkncPhnj0ZyorBuljXbTzLgRo6kuHf1W+IHFxThFl2xG+r87BVwsqx4Mn9MTgW9SE0XWjwBJcSWd6Q=="
-  "resolved" "https://registry.npmjs.org/ember-cli-htmlbars-inline-precompile/-/ember-cli-htmlbars-inline-precompile-2.1.0.tgz"
-  "version" "2.1.0"
-  dependencies:
-    "babel-plugin-htmlbars-inline-precompile" "^1.0.0"
-    "ember-cli-version-checker" "^2.1.2"
-    "hash-for-dep" "^1.2.3"
-    "heimdalljs-logger" "^0.1.9"
-    "silent-error" "^1.1.0"
 
 "ember-cli-htmlbars@^5.7.1":
   "integrity" "sha512-Uj6R+3TtBV5RZoJY14oZn/sNPnc+UgmC8nb5rI4P3fR/gYoyTFIZSXiIM7zl++IpMoIrocxOrgt+mhonKphgGg=="
@@ -5064,7 +5048,7 @@
     "broccoli-uglify-sourcemap" "^2.1.1"
     "lodash.defaultsdeep" "^4.6.0"
 
-"ember-cli-version-checker@^2.1.0", "ember-cli-version-checker@^2.1.2":
+"ember-cli-version-checker@^2.1.0":
   "integrity" "sha512-sjkHGr4IGXnO3EUcY21380Xo9Qf6bC8HWH4D62bVnrQop/8uha5XgMQRoAflMCeH6suMrezQL287JUoYc2smEw=="
   "resolved" "https://registry.npmjs.org/ember-cli-version-checker/-/ember-cli-version-checker-2.1.2.tgz"
   "version" "2.1.2"
@@ -5251,7 +5235,7 @@
   "resolved" "https://registry.npmjs.org/ember-export-application-global/-/ember-export-application-global-2.0.1.tgz"
   "version" "2.0.1"
 
-"ember-in-viewport@~4.0.2":
+"ember-in-viewport@^4.0.2":
   "integrity" "sha512-Uor/fSk53/wASJDpnXEP6RQFeEIjC5uGt64I7tjtr6aPT/jLRg0SKKRuImqUbbsHHoBDWUbkxzryexTda6LhCA=="
   "resolved" "https://registry.npmjs.org/ember-in-viewport/-/ember-in-viewport-4.0.2.tgz"
   "version" "4.0.2"
@@ -6984,7 +6968,7 @@
     "readable-stream" "^3.6.0"
     "safe-buffer" "^5.2.0"
 
-"hash-for-dep@^1.0.2", "hash-for-dep@^1.2.3", "hash-for-dep@^1.4.7", "hash-for-dep@^1.5.0", "hash-for-dep@^1.5.1":
+"hash-for-dep@^1.0.2", "hash-for-dep@^1.4.7", "hash-for-dep@^1.5.0", "hash-for-dep@^1.5.1":
   "integrity" "sha512-/dQ/A2cl7FBPI2pO0CANkvuuVi/IFS5oTyJ0PsOb6jW6WbVW1js5qJXMJTNbWHXBIPdFTWFbabjB+mE0d+gelw=="
   "resolved" "https://registry.npmjs.org/hash-for-dep/-/hash-for-dep-1.5.1.tgz"
   "version" "1.5.1"
@@ -10420,7 +10404,7 @@
   "resolved" "https://registry.npmjs.org/signal-exit/-/signal-exit-3.0.7.tgz"
   "version" "3.0.7"
 
-"silent-error@^1.0.0", "silent-error@^1.0.1", "silent-error@^1.1.0", "silent-error@^1.1.1":
+"silent-error@^1.0.0", "silent-error@^1.0.1", "silent-error@^1.1.1":
   "integrity" "sha512-n4iEKyNcg4v6/jpb3c0/iyH2G1nzUNl7Gpqtn/mHIJK9S/q/7MCfoO4rwVOoO59qPFIc0hVHvMbiOJ0NdtxKKw=="
   "resolved" "https://registry.npmjs.org/silent-error/-/silent-error-1.1.1.tgz"
   "version" "1.1.1"
